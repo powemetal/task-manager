@@ -17,7 +17,7 @@ manager.complete_task(1)
 print("=== Mes tâches ===")
 manager.display_all()
 
-#Supprimer une tache
+#Supprimer une tache..
 def remove_task(self, index):
     """Supprime une tâche par son index."""
     if 0 <= index < len(self.tasks):
